@@ -1,0 +1,53 @@
+
+/* Tablet mini */
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .column-2{
+        width: 40%;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-top: 12px;
+    }
+
+    .content1{
+        display: none;
+    }
+
+    /* .content2{
+        margin: 0 auto;
+    } */
+
+    .nav__menu{
+        display: none;
+    }
+
+    .empty{
+        display: none;
+    }
+
+    .service__about{
+        width: 50%;
+    }
+
+    .card-item{
+
+    }
+
+    .news__row{
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+
+    .card-experience{
+        margin-bottom: 50px;
+    }
+
+    .footer__end-contain{
+        width: 80%;
+    }
+
+    .footer__img-drive{
+        width: 30%;
+    }
+
+}
